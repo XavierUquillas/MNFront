@@ -1,0 +1,12 @@
+.card-title{
+    /* Ajusta estos valores para cambiar el tamaño y estilo del título de la tarjeta */
+    font-size: 20px;
+    font-weight: light;
+    font-family: fantasy;
+    color: #830606;
+    margin-bottom: 5px;
+}
+.manga-image {
+    width: 200px;
+    height: 250px;
+}

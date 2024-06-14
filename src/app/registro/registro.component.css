@@ -1,0 +1,60 @@
+.register-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #000;
+}
+.register-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.register-container .form-group {
+    margin-bottom: 20px;
+}
+
+.register-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="number"],
+.register-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000;
+}
+
+.register-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+.register-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+}
+
+.register-container button[type="submit"]:hover {
+    background-color: #c00;
+}
+.register-container input[type="radio"],
+.register-container label {
+    display: inline-block;
+    margin-right: 10px;
+}

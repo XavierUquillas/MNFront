@@ -1,0 +1,69 @@
+.navbar {
+    background-color: #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex !important; /* Sobrescribe la propiedad display de Bootstrap */
+    gap: 50px; /* Aumenta este valor para aumentar la separación */
+    flex-direction: row !important; /* Asegura que los elementos estén en una fila */
+    margin-inline-start: 60px;
+  }
+  
+  .nav-item {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: 5px double #720404; /* Añade un marco  */
+    box-shadow: 1px 1px 4px #aa0134; /* Añade una sombra al marco */
+    padding: 5px; /* Añade un poco de espacio alrededor del texto */
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 6px #c7c7c7;
+  }
+
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #da0024;
+  }
+  
+  .login {
+    position: relative;
+    right: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    border: 2px double #720404; /* Añade un marco blanco */
+    box-shadow: 1px 1px 4px #aa0134; /* Añade una sombra al marco */
+    padding: 5px; /* Añade un poco de espacio alrededor del texto */
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 6px #c7c7c7;
+    text-decoration: none;
+  }

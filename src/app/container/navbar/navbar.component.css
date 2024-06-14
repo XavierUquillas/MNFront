@@ -1,0 +1,62 @@
+.navbar {
+    background-color: #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex !important; /* Sobrescribe la propiedad display de Bootstrap */
+    gap: 20px; /* Aumenta este valor para aumentar la separación */
+    flex-direction: row !important; /* Asegura que los elementos estén en una fila */
+  }
+  
+  .nav-item {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    border: 2px double #720404; /* Añade un marco blanco */
+    padding: 5px; /* Añade un poco de espacio alrededor del texto */
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #ff3c3c;
+  }
+  
+  .login {
+    position: relative;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    border: 2px double #720404; /* Añade un marco blanco */
+    padding: 5px; /* Añade un poco de espacio alrededor del texto */
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
