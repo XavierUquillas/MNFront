@@ -27,7 +27,24 @@
   }
 .boton1:hover{
     /* Ajusta estos valores para cambiar el color de fondo del botón cuando el cursor está encima */
-    background-color: #330000;
+    background-color: #750f0f;
   }
 
+.boton2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(to right, #640202, #464545);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 5px;
+}
 
+.boton2:hover {
+    box-shadow: 0 0 10px #000000;
+    background: linear-gradient(to right, #b6b6b6, #910000);
+    color:#000000
+}

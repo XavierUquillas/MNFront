@@ -5,7 +5,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { MangaDetalleComponent } from './container/manga-detalle/manga-detalle.component';
 
 export const routes: Routes = [
-    {path: 'mangad', component: MangaDetalleComponent},
+    {path: 'mangad/:id', component: MangaDetalleComponent},
     {path: 'container', component: ContainerComponent},
     {path: 'register', component: RegistroComponent},
     {path: 'login', component: LoginComponent},

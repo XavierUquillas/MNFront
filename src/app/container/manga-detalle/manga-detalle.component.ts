@@ -19,7 +19,8 @@ export class MangaDetalleComponent  implements OnInit{
   ) { }
 
   ngOnInit(): void {
-    this.mangad = this.mangaDetailService.getManga(1); // Reemplaza 1 con el ID del manga que quieres mostrar
+    const id = +this.route.snapshot.params['id'];
+    this.mangad = this.mangaDetailService.getManga(id); 
   }
       
 
