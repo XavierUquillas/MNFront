@@ -4,7 +4,7 @@ import { ContainerComponent } from './container.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BodyComponent } from './body/body.component';
 import { MangaComponent } from './manga/manga.component';
-import { provideRouter } from '@angular/router';
+import { RouterLink, provideRouter } from '@angular/router';
 import { routes } from '../app.routes';
 
 
@@ -17,7 +17,7 @@ import { routes } from '../app.routes';
     MangaComponent,
   ],
   exports: [ContainerComponent,NavbarComponent,BodyComponent,MangaComponent ],
-  imports: [ CommonModule, ],
+  imports: [ CommonModule, RouterLink ],
   providers:[provideRouter(routes)]
 })
 export class ContainerModule { }

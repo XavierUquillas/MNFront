@@ -1,1 +1,8 @@
-<p>manga-detalle works!</p>
+<div class="card">
+    <img class="manga-image" [src]="mangad?.imagen" alt="Imagen de manga" style="float: left; width: 50%;">
+    <div class="card-body" style="float: right; width: 50%;">
+        <h5 class="card-title">{{mangad?.name}}</h5>
+        <p class="card-text">{{mangad?.author}}</p>
+        <p class="card-text">{{mangad?.descripcion}}</p>
+    </div>
+</div>
