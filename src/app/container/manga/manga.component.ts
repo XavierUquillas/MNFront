@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import { MangaBody } from './mangabody.model';
+import { MangaService } from '../../services/manga.service';
 
 
 @Component({
@@ -8,8 +9,12 @@ import { Component, Input } from '@angular/core';
   styleUrl: './manga.component.css',
 
 })
-export class MangaComponent {
-  @Input() manga: any;
-  
-  constructor() { }
+export class MangaComponent implements OnInit {
+  mangas: MangaBody[] = [];
+
+  constructor(private mangaService: MangaService) { }
+
+  ngOnInit(): void {
+    this.mangas = this.mangaService.getMangas();
+  }
 }

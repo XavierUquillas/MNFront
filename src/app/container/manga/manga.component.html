@@ -1,7 +1,15 @@
-<div class="card">
-    <img class="manga-image" [src]="manga.imagen" alt="Imagen de manga">
-    <div class="card-body">
-        <h5 class="card-title">{{manga.name}}</h5>
-        <p class="card-text">{{manga.author}}</p>
+<div class="row">
+    <h2>Ponte 11</h2>
+    <div class="col-md-2 manga-card" *ngFor="let manga of mangas" [routerLink]="['/mangad', manga.id]">
+        <button class="boton1">
+            <div class="card">
+                <img class="manga-image" [src]="manga.imagen" alt="Imagen de manga">
+                <div class="card-body">
+                    <h5 class="card-title">{{manga.name}}</h5>
+                    <p class="card-text">{{manga.author}}</p>
+                </div>
+            </div>
+            <button class="boton2" [routerLink]="['/manga-detalle', manga.id]">Leer Manga</button>
+        </button>
     </div>
 </div>

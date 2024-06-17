@@ -9,14 +9,8 @@ import { MangaService } from '../../services/manga.service';
 
 
 })
-export class BodyComponent implements OnInit {
-  mangas: { id: number; name: string; author: string; genre: string; status: string; imagen: string; }[] = [];
+export class BodyComponent  {
+  constructor() { }
 
-
-  constructor(private mangaService: MangaService) { }
-
-  ngOnInit(): void {
-    this.mangas = this.mangaService.getMangas();
-  }
 
 }

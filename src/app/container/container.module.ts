@@ -16,7 +16,7 @@ import { routes } from '../app.routes';
     BodyComponent,
     MangaComponent,
   ],
-  exports: [ContainerComponent,NavbarComponent,BodyComponent,MangaComponent ],
+  exports: [ContainerComponent,NavbarComponent,BodyComponent,MangaComponent],
   imports: [ CommonModule, RouterLink ],
   providers:[provideRouter(routes)]
 })
